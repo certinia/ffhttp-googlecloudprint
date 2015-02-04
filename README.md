@@ -56,7 +56,7 @@ This requires the [OAuth Sample App](https://githubsfdeploy.herokuapp.com?owner=
 9. Set the **Redirect URI** to the same URL as you set in step 9 in the Create an app in Google section.
 10. Make sure that **Scope Required** is checked.
 11. Set the **Scope** to https://www.googleapis.com/auth/cloudprint.
-12. Set the **Extra Url Parameters** to **access_type=offline&approval_prompt=force**. Setting **access_type** to offline means that Google supplies a refresh token with the access token which is required if you do not wish to reautheniticate every time the access token expires.
+12. Set the **Extra Url Parameters** to **access_type=offline&approval_prompt=force**. Setting **access_type** to offline means that Google supplies a refresh token with the access token which is required if you do not wish to reauthenticate every time the access token expires.
 13. **Save** the Connector Type.
 14. Select **New Connector**.
 15. Set the **Connector Name** and save. 
