@@ -143,7 +143,7 @@ private  class ffhttp_GoogleCloudPrintTest
 	
 	private static ffhttp_GoogleCloudPrint createClient()
 	{
-		return new ffhttp_GoogleCloudPrint(new ffhttp_Client.Credentials('Bearer', 'Test Token'));
+		return new ffhttp_GoogleCloudPrint(new ffhttp_Client.AccessTokenCredentials('Bearer', 'Test Token'));
 	}
 	
 	private static void assertRequestEndpointAndMethod(ffhttp_Client.AbstractClientRequest request, 
