@@ -1,0 +1,12 @@
+.DS_Store
+
+/deploy
+
+*.properties
+
+dep-dir.txt
+
+build.xml
+common.xml
+ivy.xml
+project.xml
